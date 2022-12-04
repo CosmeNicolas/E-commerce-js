@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="/Components/style.css" rel="stylesheet">
+    <title>Supermarket</title>
+</head>
+<body>
+    <!-- Nav Bar -->
+    <div class="nav-container">
+        <nav class="navBar">
+            <h1 class="navBar-logo"><a href="#market">MARKET.</a></h1>
+            <h1 class="ver-carrito" id="verCarrito">
+                <img src="/Imagenes/grocery-cart.png" class="carrito-de-super" alt="carritodesuper"><span id="cantidadCarrito" class="cantidad-carrito"></span>
+            </h1>
+        </nav>
+    </div>
+    
+    <!-- Banner -->
+    <div class="banner">
+        <div class="banner-container">
+            <h1 class="titulo">Supermarket Shop</h1>
+            <p class="subtitulo">The best place to do shopping </p>
+        </div>
+    </div>
+    
+    <!-- shop content -->
+<div id="shopContent" class="shop-content"></div>
+
+  <!--modal del carrito - tarjeta de resumen de compra / container -->
+  
+<div id="modalcontainer" class="modal-container"></div>
+  <div id="market"></div>
+</body>
+<script src="/Components/Js/Carrito.js"></script>
+<script src="/Components/Js/Productos.js"></script>
+<script src="/Components/Js/app.js"></script>
+</html>
